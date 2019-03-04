@@ -10,8 +10,11 @@ import UIKit
 
 class BlueViewController: UIViewController {
 
+    weak var delegate: SwitchControllerDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Blue view did load")
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -22,5 +25,9 @@ class BlueViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         print("Blue view will disappear")
+    }
+    
+    @IBAction func hideButtonClicked(_ sender: Any) {
+        delegate?.backToYellow()
     }
 }

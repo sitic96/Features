@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		723CB5C72228040300572166 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CB5C62228040300572166 /* YellowViewController.swift */; };
 		723CB5C92228041500572166 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CB5C82228041500572166 /* BlueViewController.swift */; };
+		723CB5D3222D201A00572166 /* SwitchControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CB5D2222D201A00572166 /* SwitchControllerDelegate.swift */; };
 		7245B0452227F91900AB370C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245B0442227F91900AB370C /* AppDelegate.swift */; };
 		7245B0472227F91900AB370C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245B0462227F91900AB370C /* MainViewController.swift */; };
 		7245B04A2227F91900AB370C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7245B0482227F91900AB370C /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		723CB5C62228040300572166 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		723CB5C82228041500572166 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		723CB5D2222D201A00572166 /* SwitchControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchControllerDelegate.swift; sourceTree = "<group>"; };
 		7245B0412227F91900AB370C /* FeaturesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeaturesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7245B0442227F91900AB370C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7245B0462227F91900AB370C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723CB5D1222D1B4500572166 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				723CB5D2222D201A00572166 /* SwitchControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		7245B0382227F91900AB370C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		7245B0432227F91900AB370C /* FeaturesSwift */ = {
 			isa = PBXGroup;
 			children = (
+				723CB5D1222D1B4500572166 /* Protocols */,
 				7245B0582227F95300AB370C /* UI */,
 				7245B0572227F94100AB370C /* ViewControllers */,
 				7245B0562227F93700AB370C /* Resource */,
@@ -166,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7245B0472227F91900AB370C /* MainViewController.swift in Sources */,
+				723CB5D3222D201A00572166 /* SwitchControllerDelegate.swift in Sources */,
 				723CB5C72228040300572166 /* YellowViewController.swift in Sources */,
 				723CB5C92228041500572166 /* BlueViewController.swift in Sources */,
 				7245B0452227F91900AB370C /* AppDelegate.swift in Sources */,
